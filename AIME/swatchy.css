@@ -1,0 +1,46 @@
+.product-options {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    /* box-shadow: 0 30px 30px -15px rgba(0, 0, 0, 0.3); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colours{
+    list-style: none;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.colours .color-item {
+    width: 24px;
+    height: 24px;    
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+}
+
+#red {
+    background-color: #ffc5ff;
+}
+#green {
+    background-color: #ff5697;
+}
+#amber {
+    background-color: #ffd045;
+}
+#blue {
+    background-color: #a73083;
+}
+#gray {
+    background-color: #000000;
+}
